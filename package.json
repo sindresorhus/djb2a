@@ -1,0 +1,36 @@
+{
+	"name": "djb2a",
+	"version": "0.0.0",
+	"description": "DJB2a non-cryptographic hash function",
+	"license": "MIT",
+	"repository": "sindresorhus/djb2a",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"djb2a",
+		"djb2",
+		"djb",
+		"algorithm",
+		"hash",
+		"hashing",
+		"string",
+		"function",
+		"bernstein"
+	],
+	"devDependencies": {
+		"ava": "*",
+		"xo": "*"
+	}
+}

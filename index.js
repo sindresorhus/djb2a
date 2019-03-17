@@ -3,7 +3,7 @@
 // Explanation: https://stackoverflow.com/a/31621312/64949
 const MAGIC_CONSTANT = 5381;
 
-module.exports = string => {
+const djb2a = string => {
 	let hash = MAGIC_CONSTANT;
 
 	for (let i = 0; i < string.length; i++) {
@@ -14,3 +14,6 @@ module.exports = string => {
 	// Convert it to an unsigned 32-bit integer
 	return hash >>> 0;
 };
+
+module.exports = djb2a;
+module.exports.default = djb2a;

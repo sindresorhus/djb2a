@@ -21,7 +21,7 @@ djb2a('🦄🌈');
 //=> 1484783307
 ```
 
-It returns a positive integer.
+It returns the hash as a positive integer.
 
 
 ## Related

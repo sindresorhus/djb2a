@@ -16,4 +16,5 @@ const djb2a = string => {
 };
 
 module.exports = djb2a;
+// TODO: remove this in the next major version
 module.exports.default = djb2a;

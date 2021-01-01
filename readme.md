@@ -1,4 +1,4 @@
-# djb2a [![Build Status](https://travis-ci.com/sindresorhus/djb2a.svg?branch=master)](https://travis-ci.com/sindresorhus/djb2a)
+# djb2a
 
 > [DJB2a](http://www.cse.yorku.ca/~oz/hash.html#djb2) non-cryptographic hash function
 

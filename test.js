@@ -1,5 +1,5 @@
 import test from 'ava';
-import djb2a from '.';
+import djb2a from './index.js';
 
 test('main', t => {
 	t.is(djb2a(''), 5381);

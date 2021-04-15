@@ -13,7 +13,7 @@ $ npm install djb2a
 ## Usage
 
 ```js
-const djb2a = require('djb2a');
+import djb2a from 'djb2a';
 
 djb2a('🦄🌈');
 //=> 1484783307

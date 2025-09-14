@@ -6,8 +6,8 @@
 
 ## Install
 
-```
-$ npm install djb2a
+```sh
+npm install djb2a
 ```
 
 ## Usage
